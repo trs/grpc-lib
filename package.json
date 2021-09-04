@@ -1,0 +1,14 @@
+{
+  "name": "grpc-lib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.3.7",
+    "@grpc/proto-loader": "^0.6.4"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.2"
+  }
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+service ExampleService {
+  rpc Call (CallRequest) returns (CallReply) {}
+}
+
+message CallRequest {
+  string message = 1;
+}
+
+message CallReply {
+  string message = 1;
+}
